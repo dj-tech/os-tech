@@ -1,0 +1,37 @@
+web:
+  build: .
+  links:setup.cloud.io/localhost.bin/
+  - db
+  image:mysql
+  ports:
+  - "8080:7777"
+db:
+  image: postgres
+ubuntu:
+  image:14.04
+  -files
+  json-web:setup.json
+  -db
+  image:redis
+  ports:
+  -"8080:7777"
+redis:
+  image: redis
+wordpress:
+  image:wp
+  build:wp
+mysql:
+  pasword:1234
+  image:mysql
+owncloud:
+  image:my-cloud
+  -cloud
+  max:10-gb
+java:
+  image:java
+django:
+  image:django
+python:
+  image:pyrun
+  
+
