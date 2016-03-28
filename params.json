@@ -1,0 +1,6 @@
+{
+  "name": "Os-tech",
+  "tagline": "Scientific OS with creative environment",
+  "body": "pinw\r\n====\r\n[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/AlgoLab/pinw?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\r\n\r\nWeb interface for PIntron\r\n\r\n\r\nREQUIREMENTS\r\n------------\r\n\r\n```\r\ngem 'sqlite3'\r\ngem 'sinatra', '1.4.5'\r\ngem 'sinatra- activerecord'\r\ngem 'net-ssh', '~> 2.9.1'\r\n\r\n```\r\n\r\nUSAGE\r\n-----\r\n\r\nInstallation:\r\n`$ rake db:setup`\r\n\r\n\r\nLaunch:\r\n\r\n`$ rackup`\r\n\r\nCiao, la parte sopra era quella di pinW.\r\nLui avvia ilsito e la base del oshttps://www.google.it/search?q=google+traduttore&iutf-8&oe=utf-8&lol_rd=cr&ei=fo35VqDaEsWrswGioYWIBw\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
